@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/courseoutline
+# catalog-date 2008-09-18 22:52:44 +0200
+# catalog-license other-free
+# catalog-version 1.0
 Name:		texlive-courseoutline
 Version:	1.0
 Release:	1
@@ -36,6 +42,7 @@ tedious task that needs to be repeated often.
 %files
 %{_texmfdistdir}/tex/latex/courseoutline/courseoutline.cls
 %doc %{_texmfdistdir}/doc/latex/courseoutline/Outline.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,3 +53,5 @@ tedious task that needs to be repeated often.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
