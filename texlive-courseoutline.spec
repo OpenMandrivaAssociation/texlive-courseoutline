@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Prepare university course outlines
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/courseoutline
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/courseoutline
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/courseoutline.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/courseoutline.doc.r%{version}.tar.xz
